@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Assignment3Includes">
+      <UniqueIdentifier>{f66f983a-33c2-46cc-9fb8-024a49a62693}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assignment3StudentImpl.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Assignment3StudentImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Assignment3\include\Assignment3Tests.h">
+      <Filter>Assignment3Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Assignment3\include\DummyObj.h">
+      <Filter>Assignment3Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Assignment3\include\IAssignment3.h">
+      <Filter>Assignment3Includes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
